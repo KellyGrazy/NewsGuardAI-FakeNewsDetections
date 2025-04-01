@@ -128,6 +128,7 @@ Matriz de Confusão – Para visualizar erros do modelo
 
 
 Resultados –
+
  ![image](https://github.com/user-attachments/assets/dcea5a8c-65f2-43a9-8e78-6e62a685ab2e)
 
   ![image](https://github.com/user-attachments/assets/b51b8865-00b7-4179-b308-e7f4a4cccfcd)
