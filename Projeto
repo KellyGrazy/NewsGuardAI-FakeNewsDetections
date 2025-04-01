@@ -1,7 +1,7 @@
-##PROJETO APLICADO II
+## PROJETO APLICADO II
 
 
-##Projeto de Ciência de Dados - Detecção de Fake News em Notícias Online
+## Projeto de Ciência de Dados - Detecção de Fake News em Notícias Online
 PROFESSOR: FELIPE ALBINO DOS SANTOS
 
 GRUPO:
@@ -35,7 +35,7 @@ SUMÁRIO
 
 
  
-##1.	PREMISSAS DO PROJETO
+# 1.	PREMISSAS DO PROJETO
 Nome da Empresa: NewsGuard AI
 
 Área de Atuação: Jornalismo e Tecnologia
@@ -46,7 +46,7 @@ Fonte de Dados: Bases públicas de notícias verdadeiras e falsas, como o Fake N
 
 Tipo de Dados: Texto (notícias e manchetes publicadas online).
 
-##2.	OBJETIVOS E METAS
+# 2.	OBJETIVOS E METAS
 Objetivo Geral: Desenvolver um modelo de aprendizado de máquina para classificar notícias como verdadeiras ou falsas.
 Metas Específicas:
 Coletar e preparar uma base de notícias reais e fake news.
@@ -55,7 +55,7 @@ Treinar modelos de aprendizado de máquina para detectar padrões em fake news.
 Criar um painel interativo para visualizar a confiabilidade das notícias.
 
 
-##3.	CRONOGRAMA DE ATIVIDADES
+# 3.	CRONOGRAMA DE ATIVIDADES
 |Etapa    | |              Atividade                        |Duração    |
 |Etapa 1  |	|Definição do escopo do projeto                 |1 semana   |
 |Etapa 2  |	|Coleta e limpeza dos dados	                    |2 semanas  |
@@ -65,13 +65,13 @@ Criar um painel interativo para visualizar a confiabilidade das notícias.
 |Etapa 6  |	Desenvolvimento do painel interativo            |2 semanas  |
 |Etapa 7  |	Preparação da apresentação final                |1 semana   |
 
-##4.	BIBLIOTECAS E REPOSITÓRIO NO GITHUB
+# 4.	BIBLIOTECAS E REPOSITÓRIO NO GITHUB
 Para trabalhar com ciência de dados em Python, utilizaremos as seguintes bibliotecas:
 Manipulação de Dados:
 ●	pandas – Para carregar, limpar e estruturar os dados
 ●	numpy – Para operações matemáticas e manipulação de arrays
 
-##Processamento de Texto (NLP - Natural Language Processing):
+# Processamento de Texto (NLP - Natural Language Processing):
 
 
  Visualização de Dados: 
@@ -79,11 +79,11 @@ Manipulação de Dados:
  
 
 
-Repositório no GitHub:
+# Repositório no GitHub:
 Criamos um repositório chamado NewsGuardAI-FakeNewsDetections para facilitar a colaboração e controle de versões.
 https://github.com/KellyGrazy/NewsGuardAI-FakeNewsDetections
 
-5.	BASE DE DADOS E ANÁLISE EXPLORATÓRIA
+# 5.	BASE DE DADOS E ANÁLISE EXPLORATÓRIA
 Para detectar fake news, utilizaremos bases públicas que contêm notícias classificadas como verdadeiras ou falsas. Algumas opções incluem:
 LIAR Dataset: Contém mais de 12.000 declarações classificadas por jornalistas como "verdadeiro", "parcialmente verdadeiro" e "falso".
 Fake News Corpus: Uma base extensa com notícias reais e falsas coletadas de diversos sites.
@@ -96,7 +96,7 @@ Criar gráficos para entender padrões na distribuição dos textos.
  
 
 
-6.	TRATAMENTO DA BASE DE DADOS
+# 6.	TRATAMENTO DA BASE DE DADOS
 Antes de treinar o modelo, precisamos preparar os dados:
 Remover textos duplicados e valores nulos
 Converter textos para minúsculas para padronizar
@@ -104,7 +104,7 @@ Remover caracteres especiais e stopwords para eliminar ruído
 Tokenizar e lematizar palavras (reduzir palavras ao seu radical)
 Transformar os textos em vetores numéricos usando TF-IDF ou Word Embeddings (Word2Vec, BERT, etc.)
 
-7.	CÁLCULO DA ACURÁCIA
+# 7.	CÁLCULO DA ACURÁCIA
 Para medir o desempenho do modelo, utilizaremos métricas de avaliação de classificação:
 Acurácia – Mede a porcentagem de previsões corretas:
 Acurácia = Número de previsões corretas
@@ -115,10 +115,10 @@ F1-Score – Mede o equilíbrio entre precisão e recall
 Matriz de Confusão – Para visualizar erros do modelo
 
 
-Resultados –
+# Resultados –
  
   
 
 
-8.	REDIGIR A PARTIR DA AULA 3
+# 8.	REDIGIR A PARTIR DA AULA 3
 
