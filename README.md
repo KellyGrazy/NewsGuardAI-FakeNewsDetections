@@ -58,17 +58,16 @@ Criar um painel interativo para visualizar a confiabilidade das notícias.
 
 
 
+3. CRONOGRAMA
 
+|Etapa 1  |	|Definição do escopo do projeto                 |1 semana   |
+|Etapa 2  |	|Coleta e limpeza dos dados	                    |2 semanas  |
+|Etapa 3  |	Exploração e visualização dos dados             |1 semana   |
+|Etapa 4  |	Implementação dos modelos de classificação      |3 semanas  |
+|Etapa 5  |	Avaliação dos modelos e otimização              |2 semanas  |
+|Etapa 6  |	Desenvolvimento do painel interativo            |2 semanas  |
+|Etapa 7  |	Preparação da apresentação final                |1 semana   |
 
-3.	CRONOGRAMA DE ATIVIDADES
-Etapa	Atividade	Duração
-Etapa 1	Definição do escopo do projeto	1 semana
-Etapa 2	Coleta e limpeza dos dados	2 semanas
-Etapa 3	Exploração e visualização dos dados	1 semana
-Etapa 4	Implementação dos modelos de classificação	3 semanas
-Etapa 5	Avaliação dos modelos e otimização	2 semanas
-Etapa 6	Desenvolvimento do painel interativo	2 semanas
-Etapa 7	Preparação da apresentação final	1 semana
 
 4.	BIBLIOTECAS E REPOSITÓRIO NO GITHUB
 Para trabalhar com ciência de dados em Python, utilizaremos as seguintes bibliotecas:
