@@ -74,11 +74,18 @@ Para trabalhar com ciência de dados em Python, utilizaremos as seguintes biblio
 Manipulação de Dados:
 ●	pandas – Para carregar, limpar e estruturar os dados
 ●	numpy – Para operações matemáticas e manipulação de arrays
+
 Processamento de Texto (NLP - Natural Language Processing):
- 
+![image](https://github.com/user-attachments/assets/6252a56f-d5bf-418d-99f5-0b4be2dbd6aa)
+
+
  Visualização de Dados: 
  
- 
+![image](https://github.com/user-attachments/assets/3f02540d-5578-46e4-8c20-abfef9960d87)
+
+![image](https://github.com/user-attachments/assets/ad7b4475-a7b0-4c0c-a78f-f99cf0403949)
+
+![image](https://github.com/user-attachments/assets/5a3fbcdf-3a56-4fdf-81c3-03e75e4548fc)
 
 
 Repositório no GitHub:
@@ -94,11 +101,14 @@ Carregar os dados no pandas e visualizar as primeiras linhas.
 Identificar categorias de notícias (ex: "fake" e "real").
 Contar a frequência das classes para verificar balanceamento.
 Verificar tamanho médio dos textos e distribuição das palavras mais comuns.
+
 Criar gráficos para entender padrões na distribuição dos textos.
+![image](https://github.com/user-attachments/assets/3e1e675d-c97c-4aa7-b1c4-f22bc508b2b4)
+
  
 
 
-6.	TRATAMENTO DA BASE DE DADOS
+7.	TRATAMENTO DA BASE DE DADOS
 Antes de treinar o modelo, precisamos preparar os dados:
 Remover textos duplicados e valores nulos
 Converter textos para minúsculas para padronizar
@@ -106,7 +116,7 @@ Remover caracteres especiais e stopwords para eliminar ruído
 Tokenizar e lematizar palavras (reduzir palavras ao seu radical)
 Transformar os textos em vetores numéricos usando TF-IDF ou Word Embeddings (Word2Vec, BERT, etc.)
 
-7.	CÁLCULO DA ACURÁCIA
+8.	CÁLCULO DA ACURÁCIA
 Para medir o desempenho do modelo, utilizaremos métricas de avaliação de classificação:
 Acurácia – Mede a porcentagem de previsões corretas:
 Acurácia = Número de previsões corretas
@@ -118,11 +128,15 @@ Matriz de Confusão – Para visualizar erros do modelo
 
 
 Resultados –
- 
-  
+ ![image](https://github.com/user-attachments/assets/dcea5a8c-65f2-43a9-8e78-6e62a685ab2e)
+
+  ![image](https://github.com/user-attachments/assets/b51b8865-00b7-4179-b308-e7f4a4cccfcd)
+
 
 
 8.	REDIGIR A PARTIR DA AULA 3
 
+9.	REFERÊNCIA BIBLIOGRÁFICA
+F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872.
 
  
