@@ -24,12 +24,15 @@ SUMÁRIO
 2.	Objetivos e metas	3
 3.	Cronograma de atividades	4
 4.	Bibliotecas e repositório no github	4
-5.	Base de Dados e Análise Exploratória	5
-6.	Tratamento da Base de Dados	6
-7.	Bases teóricas dos métodos analíticos	6
-8.	Cálculo da acurácia	6
-9.	Redigir a partir da aula 3	7
-10.	Referência bibliográfica	8
+5.	Repositório no github
+6.	Base de Dados e Análise Exploratória	5
+7.	Tratamento da Base de Dados	6
+8.	Calculo da Acurácia	6
+9.	Resultados Preliminares
+10.	Produto gerado e Modelo de Negócios	7
+11.	Esboço do storytelling
+12.	Proxima etapa
+13.	Referência bibliográfica
 
 
 
@@ -88,11 +91,11 @@ Processamento de Texto (NLP - Natural Language Processing):
 ![image](https://github.com/user-attachments/assets/5a3fbcdf-3a56-4fdf-81c3-03e75e4548fc)
 
 
-Repositório no GitHub:
+5. Repositório no GitHub:
 Criamos um repositório chamado NewsGuardAI-FakeNewsDetections para facilitar a colaboração e controle de versões.
 https://github.com/KellyGrazy/NewsGuardAI-FakeNewsDetections
 
-5.	BASE DE DADOS E ANÁLISE EXPLORATÓRIA
+6.	BASE DE DADOS E ANÁLISE EXPLORATÓRIA
 Para detectar fake news, utilizaremos bases públicas que contêm notícias classificadas como verdadeiras ou falsas. Algumas opções incluem:
 LIAR Dataset: Contém mais de 12.000 declarações classificadas por jornalistas como "verdadeiro", "parcialmente verdadeiro" e "falso".
 Fake News Corpus: Uma base extensa com notícias reais e falsas coletadas de diversos sites.
@@ -135,9 +138,32 @@ Resultados –
 
 
 
-8.	REDIGIR A PARTIR DA AULA 3
+9.	RESULTADOS PRELIMINARES
+A partir da metodologia definida na etapa anterior, desenvolvemos modelos de aprendizado supervisionado para classificar notícias como verdadeiros ou falsas. Esse processo seguiu algumas etapas importantes:
+•	Pré-processamento dos textos: Começamos limpando os dados, removendo duplicidades e valores nulos. Em seguida, padronizamos os textos, eliminamos palavras irrelevantes e aplicamos a lematização para deixar os termos mais consistentes.
+•	Vetorização: Utilizamos a técnica TF-IDF para transformar os textos em representações numéricas.
+•	Modelagem: Testamos diferentes algoritmos de classificação.
+•	Avaliação dos modelos: Para medir o desempenho dos modelos, usamos métricas como acurácia, precisão, recall, F1-Score e matriz de confusão. 
+![image](https://github.com/user-attachments/assets/3b023f1c-f404-4281-a728-017c970bebe0)
 
-9.	REFERÊNCIA BIBLIOGRÁFICA
+10. PRODUTO GERADO E MODELO DE NEGÓCIOS:
+Desenvolvemos um protótipo funcional com Streamlit, que oferece uma experiÇencia interativa e intuitiva para análise de notícias. As principais funcionalidades incluem:
+•	Entrada de texto (manchete ou notícia completa).
+•	Classificação da notícia como “Fake ou Real”, com indicação da probabilidade.
+•	Exibição de estatísticas da base de dados utilizada
+•	Interface responsiva e fácil de usar.
+A NewsGuar AI poderá atuar por meio de diferentes frentes de produtos e serviços:
+•	Extensão de navegador: versão gratuita com alertas em tempo real sobre notícias suspeitas.
+•	API comercial: venda de acesso à nossa tecnologia de classificação de notícias para desenvolvedores e empresas.
+•	Painel analítico corporativo: solução voltada para redações e organizações jornalísticas, com visualizações personalizadas e monitoramento contínuo de notícias.
+•	Serviços de consultoria: apoio especializado em checagem automatizada de informações, especialmente útil em campanhas políticas e institucionais.
+
+11. ESBOÇO DO STORYTELLING
+Vivemos em um mundo saturado de informações, onde separar o verdadeiro do falso se tornou um desafio diário. Nesse cenário, nasce a NewsGuard AI: uma startup que tem como missão devolver a confiança à informação.
+Utilizando inteligência artificial, oferecemos uma ferramenta acessível, eficaz e interativa para que leitores e instituições possam identificar com mais clareza o que a fato e o que é desinformação. Em tempos em que tudo parece incerto, acreditamos que a verdade deve ser o nosso Norte e não pode ser deixada para trás.
+
+12. PROXIMA ETAPA
+14.		REFERÊNCIA BIBLIOGRÁFICA
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872.
 
  
