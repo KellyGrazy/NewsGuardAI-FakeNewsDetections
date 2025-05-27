@@ -115,3 +115,57 @@ plt.xlabel('Predito')
 plt.ylabel('Real')
 plt.title('Matriz de Confusão')
 plt.show()
+
+import streamlit as st
+import joblib
+
+# Carregar modelo e vetor
+model = joblib.load("news_guard_model.joblib")
+vectorizer = joblib.load("news_guard_vectorizer.joblib")
+
+st.set_page_config(page_title="NewsGuard AI", layout="centered")
+st.title("🧠 NewsGuard AI")
+st.write("Classificação de notícias como **falsas** ou **reais** usando inteligência artificial.")
+
+user_input = st.text_area("Cole aqui o conteúdo da notícia:", height=200)
+
+if st.button("Verificar"):
+    if user_input.strip() == "":
+        st.warning("Digite algum conteúdo para analisar.")
+    else:
+        text_vec = vectorizer.transform([user_input])
+        prediction = model.predict(text_vec)[0]
+        proba = model.predict_proba(text_vec).max()
+
+        if prediction == "real":
+            st.success(f"✅ Esta notícia parece **VERDADEIRA** com confiança de {proba:.2%}.")
+        else:
+            st.error(f"⚠️ Esta notícia parece **FALSA** com confiança de {proba:.2%}.")
+streamlit run app.py
+import streamlit as st
+import joblib
+
+# Carregar modelo e vetor
+model = joblib.load("news_guard_model.joblib")
+vectorizer = joblib.load("news_guard_vectorizer.joblib")
+
+st.set_page_config(page_title="NewsGuard AI", layout="centered")
+st.title("🧠 NewsGuard AI")
+st.write("Classificação de notícias como **falsas** ou **reais** usando inteligência artificial.")
+
+user_input = st.text_area("Cole aqui o conteúdo da notícia:", height=200)
+
+if st.button("Verificar"):
+    if user_input.strip() == "":
+        st.warning("Digite algum conteúdo para analisar.")
+    else:
+        text_vec = vectorizer.transform([user_input])
+        prediction = model.predict(text_vec)[0]
+        proba = model.predict_proba(text_vec).max()
+
+        if prediction == "real":
+            st.success(f"✅ Esta notícia parece **VERDADEIRA** com confiança de {proba:.2%}.")
+        else:
+            st.error(f"⚠️ Esta notícia parece **FALSA** com confiança de {proba:.2%}.")
+
+
