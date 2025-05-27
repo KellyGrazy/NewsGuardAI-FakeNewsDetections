@@ -162,8 +162,7 @@ A NewsGuar AI poderá atuar por meio de diferentes frentes de produtos e serviç
 Vivemos em um mundo saturado de informações, onde separar o verdadeiro do falso se tornou um desafio diário. Nesse cenário, nasce a NewsGuard AI: uma startup que tem como missão devolver a confiança à informação.
 Utilizando inteligência artificial, oferecemos uma ferramenta acessível, eficaz e interativa para que leitores e instituições possam identificar com mais clareza o que a fato e o que é desinformação. Em tempos em que tudo parece incerto, acreditamos que a verdade deve ser o nosso Norte e não pode ser deixada para trás.
 
-12. PROXIMA ETAPA
-14.		REFERÊNCIA BIBLIOGRÁFICA
+12.		REFERÊNCIA BIBLIOGRÁFICA
 F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872.
 
  
